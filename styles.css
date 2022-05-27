@@ -133,6 +133,11 @@ table {
   align-items: center;
   border: 1px solid black;
   cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  color: #ff9933;
+  border-radius: 3px;
+  box-shadow: 7px 5px 12px rgb(107, 103, 103);
 }
 .day-of-week {
   background-color: rgb(127, 168, 127);
@@ -140,18 +145,20 @@ table {
   font-weight: bold;
 }
 .day-of-week > td {
-  padding: 1rem;
+  padding: 0.4rem;
   border-bottom: 1px solid black;
   margin: 0;
+  color: #fff;
 }
 td {
   text-align: center;
 }
 .description {
   background-color: aliceblue;
+  box-shadow: 7px 5px 12px rgb(107, 103, 103);
 }
 .an {
-  height: 7rem;
+  height: 5rem;
   width: 50%;
   margin: 0 0 0 auto;
 }
@@ -188,6 +195,17 @@ footer a:hover {
   }
   section {
     margin-left: 2rem;
+  }
+  .day-of-week > td {
+    padding: 1rem;
+    border-bottom: 1px solid black;
+    margin: 0;
+    color: #fff;
+  }
+  .an {
+    height: 7rem;
+    width: 50%;
+    margin: 0 0 0 auto;
   }
   footer {
     position: absolute;
