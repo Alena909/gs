@@ -15,7 +15,7 @@ const loadAnCat = () => {
     renderer: "svg",
     loop: true,
     autoplay: true,
-    path: "./animations/14592-loader-cat.json", // the path to the animation json
+    path: "./animations/lf30_editor_r2ia1abk.json", // the path to the animation json
   });
 };
 loadAnCat();
