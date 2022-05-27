@@ -116,7 +116,48 @@ section h2 a:hover {
   transform: rotateZ(-15deg);
   margin: -60px 0px 0px -60px;
 }
-
+#calendar {
+  /* height: 100%; */
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#calendar h2 {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.day-of-week {
+  background-color: rgb(127, 168, 127);
+  margin: 0;
+  font-weight: bold;
+}
+.day-of-week > td {
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+td {
+  text-align: center;
+}
+.description {
+  background-color: aliceblue;
+}
+.an {
+  height: 7rem;
+  width: 50%;
+  margin: 0 0 0 auto;
+}
+ul {
+  padding-top: 12px;
+}
 footer {
   background-color: rgb(96, 145, 96);
   padding: 20px 0;

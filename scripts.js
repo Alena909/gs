@@ -9,6 +9,28 @@ const loadAn = () => {
 };
 loadAn();
 
+const loadAnCat = () => {
+  return lottie.loadAnimation({
+    container: document.querySelector(".animation1"), // the dom element that will contain the animation
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    path: "./animations/14592-loader-cat.json", // the path to the animation json
+  });
+};
+loadAnCat();
+
+const loadAnDog = () => {
+  return lottie.loadAnimation({
+    container: document.querySelector(".animation2"), // the dom element that will contain the animation
+    renderer: "svg",
+    loop: true,
+    autoplay: true,
+    path: "./animations/19937-happy-dog.json", // the path to the animation json
+  });
+};
+loadAnDog();
+
 let date = new Date();
 let year = date.getFullYear();
 
